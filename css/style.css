@@ -1479,3 +1479,130 @@ body {
 .excavator__running-gear {
   height: 0px;
 }
+
+.excavator__running-gear {
+  position: relative;
+}
+
+.running-gear__black-block {
+  position: absolute;
+  top: 267px;
+  left: 118px;
+  height: 114px;
+  border: 10px dashed #888888;
+  width: 581px;
+  background: #000000;
+  border-radius: 60px;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 1;
+}
+
+.running-gear__grey-block {
+  position: absolute;
+  top: 286px;
+  left: 188px;
+  height: 78px;
+  width: 442px;
+  border-top: 5px solid #494949;
+  background: #8d8686;
+  box-shadow: 0px -9px 0px #3c3c3c inset;
+  border-radius: 50px;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 5;
+}
+
+.running-gear__dark-grey-block {
+  position: absolute;
+  top: 299px;
+  left: 188px;
+  height: 22px;
+  width: 442px;
+  background: #8d8686;
+  box-shadow: 0px -9px 0px #3c3c3c inset;
+  border-radius: 50px;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 5;
+}
+
+.running-gear__circle-first {
+  position: absolute;
+  top: 275px;
+  left: 121px;
+  height: 100px;
+  width: 100px;
+  background: #342d2d;
+  border-radius: 50%;
+  border: 5px dotted #7c7171;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 5;
+}
+.running-gear__circle-second {
+  position: absolute;
+  top: 275px;
+  left: 596px;
+  height: 100px;
+  width: 100px;
+  background: #342d2d;
+  border-radius: 50%;
+  border: 5px dotted #7c7171;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 5;
+}
+.running-gear__circle-third {
+  position: absolute;
+  top: 285px;
+  left: 606px;
+  height: 80px;
+  width: 80px;
+  background: #888888;
+  border-radius: 50%;
+  border: 6px dotted #333;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 6;
+}
+.running-gear__circle-fourt {
+  position: absolute;
+  top: 285px;
+  left: 131px;
+  height: 80px;
+  width: 80px;
+  background: #888888;
+  border-radius: 50%;
+  border: 6px dotted #333;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 6;
+}
+.running-gear__circle-fifth {
+  position: absolute;
+  top: 293px;
+  left: 138px;
+  height: 65px;
+  width: 65px;
+  background: linear-gradient(180deg, #ffffff, #000000);
+  border-radius: 50%;
+  border: 6px solid #454545;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 7;
+}
+
+.running-gear__circle-sixth {
+  position: absolute;
+  top: 293px;
+  left: 614px;
+  height: 65px;
+  width: 65px;
+  background: linear-gradient(180deg, #ffffff, #000000);
+  border-radius: 50%;
+  border: 6px solid #454545;
+  transform: rotate(0deg);
+  transform-origin: 0;
+  z-index: 7;
+}
